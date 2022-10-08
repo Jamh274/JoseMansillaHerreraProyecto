@@ -22,25 +22,27 @@
 <body>
 
     <!--Navegador-->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg">
 
         <!--Nav Contenedor-->
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Inicio</a>
+          <a class="navbar-brand text-light" href="#">Inicio</a>
 
+          <!--Hamburguer Buttons-->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <!--Nav Links-->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown" >
             <ul class="navbar-nav">
 
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="pages/jugadores.html">Jugadores Destacados</a>
+                <a class="nav-link active text-light" aria-current="page" href="pages/jugadores.html">Jugadores Destacados</a>
               </li>
 
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Torneos</a>
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Torneos</a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="pages/liga.html">Liga Española de Futbol</a></li>
                   <li><a class="dropdown-item" href="pages/uefa.html">Uefa Champions League</a></li>
@@ -49,17 +51,74 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="pages/tienda.html">Tienda</a>
+                <a class="nav-link text-light" href="pages/tienda.html">Tienda</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                <a class="nav-link text-light" href="pages/contacto.html">Contacto</a>
               </li>
-              
+
             </ul>
           </div>
         </div>
       </nav>
+
+
+    <!--Home Header-->
+    <header class="container-fluid">
+        <div class="row" >
+
+            <div class="index-header">
+                <h1>FC Barcelona</h1>
+                <p>El Fútbol Club Barcelona conocido popularmente como Barça, es una entidad polideportiva con sede en Barcelona, España. Fue fundado como club de fútbol el 29 de noviembre de 1899 y registrado oficialmente el 5 de enero de 1903.</p>
+            </div>
+
+            <div class="col-12 d-flex justify-content-center">
+                <img src="img/plantilla.jpeg" alt="plantilla-barcelona">
+            </div>
+            
+        </div>
+    </header>
+
+    <!--Main-->
+    <main class="container-fluid p-3">
+        <div class="row">
+            
+            <h2 class="d-flex justify-content-center">Palmares</h2>
+
+            <!--Palmares-->
+            <div class="d-flex justify-content-center p-3">
+
+                <ul>
+                    <li>5 Copas de Europa</li>
+                    <li>3 Mundiales de Clubes</li>
+                    <li>4 Recopas de Europa</li>
+                    <li>3 Copas de Ferias</li>
+                    <li>5 Supercopas de Europa</li>
+                    <li>2 Copas Latinas</li>
+                    <li>4 Copas de los Pirineos</li>
+                    <li>26 Ligas</li>
+                    <li>31 Copas del Rey</li>
+                </ul>
+    
+                <ul>
+                    <li>13 Supercopas de España</li>
+                    <li>2 Copas de la Liga</li>
+                    <li>1 Liga Mediterranea</li>
+                    <li>1 Liga Catalana</li>
+                    <li>23 Campeonatos de Cataluña</li>
+                    <li>2 Supercopas de Cataluña</li>
+                    <li>8 Copas Cataluña</li>
+                    <li>3 Copas Eva Duarte</li>
+                </ul>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <img src="img/trofeos.jpg" alt="trofeos">
+            </div>
+            
+        </div>
+    </main>
     
 
 
