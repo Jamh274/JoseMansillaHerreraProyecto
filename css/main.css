@@ -1,3 +1,7 @@
+.just{
+    text-align: justify;
+}
+
 /*Estilos Navbar*/
 nav {
     background: rgb(7,36,195);
@@ -8,12 +12,29 @@ nav {
     border: solid black;
 }
 
-/*Home Header*/
-.index-header {
-    padding: 1em;
-
+/*Estilos Footer*/
+footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: justify;
+    background-color: black;
 }
+
+footer div ul li{
+    display: inline-block;
+}
+
+/*Estilos Index*/
+
+.texto-h {
+    text-align: justify;
+    max-width: 500px;
+}
+
+/*Estilos Jugadores*/
+
+.texto-jugadores {
+    text-align: justify;
+    max-width: 300px;
+}
+
