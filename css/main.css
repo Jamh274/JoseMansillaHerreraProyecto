@@ -268,14 +268,13 @@ main div table tr th{
 @media only screen and (min-width: 992px) {
 
     .trans {
-        transition-delay: 1s;
-        transition-duration: 1s;
+        transition: 2s;
         transition-timing-function: ease-in-out;
     }
     
     .trans :hover{
-        height: 300px;
-        width: 300px;
+        height: 310px;
+        width: 350px;
     }
 
 }
