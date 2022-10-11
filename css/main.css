@@ -2,6 +2,21 @@
     text-align: justify;
 }
 
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+footer{
+    margin-top: auto;
+    color: white;
+}
+
 /*Estilos Navbar*/
 nav {
     background: rgb(7,36,195);
@@ -31,10 +46,84 @@ footer div ul li{
     max-width: 500px;
 }
 
+.tamaño-p {
+    max-width: 450px;
+}
+
 /*Estilos Jugadores*/
 
 .texto-jugadores {
     text-align: justify;
     max-width: 300px;
+}
+
+/*Estilos Tienda*/
+
+.articulos-tienda{
+    max-width: 400px;
+}
+
+.img{
+    max-width: 310px;
+}
+
+.tienda-virtual{
+    margin: 1em;
+    text-align: center;
+    background-color: white;
+    border: solid;
+}
+
+/*Estilos Liga*/
+
+.texto-liga{
+    max-width: 600px;
+    text-align: justify;
+}
+
+/*Estilos Copa*/
+
+.texto-copa{
+    max-width: 600px;
+    text-align: justify;
+}
+
+/*Estilos Contacto*/
+
+.contactanos{
+    margin: 1em;
+    text-align: center;
+    background-color: white;
+    border: solid;  
+}
+
+.ubicacion{
+    padding: 16px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formulario{
+    padding: 16px;
+    background-color: white;
+    max-width: 310px;
+    
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    align-items: center;
+    font-weight: bold;
+}
+
+.mapa{
+    padding: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
